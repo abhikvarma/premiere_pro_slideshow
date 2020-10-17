@@ -29,7 +29,7 @@ var startTime = 0;
  for(var e = 1; e<=x; e++) {
      videoTrackOne.insertClip(importedImages[e-1], startTime);   
      startTime=parseInt(s[e]);
-     //videoTrackOne.clips[e-1].end = videoTrackOne.clips[e-1].start.seconds+ parseInt(s[e]);  
+     try{videoTrackOne.clips[e-1].end = parseInt(s[e]); }catch(e){}
     }
 
 } 
