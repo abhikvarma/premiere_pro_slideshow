@@ -1,4 +1,4 @@
-# Premiere Pro Slideshow
+# Premiere Pro Automated Slide Insertions
 Creates a new sequence and adds pictures into it according to the timestamps provided.
 
 # Requirements
